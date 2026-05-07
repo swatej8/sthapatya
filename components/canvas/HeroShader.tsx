@@ -67,11 +67,7 @@ void main() {
 
   // Color mix - Light Theme
   vec3 whiteBase = vec3(0.98, 0.98, 0.98); // #fafafa
-<<<<<<< HEAD
   vec3 brandRed = vec3(0.9, 0.0, 0.0);     // #e60000 approx
-=======
-  vec3 brandRed = vec3(1.0, 0.73, 0.28);     // #ffbb47
->>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
   vec3 softGray = vec3(0.9, 0.9, 0.9);
 
   // Flow intensity

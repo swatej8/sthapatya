@@ -72,11 +72,7 @@ export default function HeroSlider() {
                 transition={{ delay: 1, duration: 1 }}
                 className="absolute top-24 right-6 md:right-12 z-10 text-right hidden md:block"
             >
-<<<<<<< HEAD
                 <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-rozha)] text-[var(--color-brand-red)] leading-snug drop-shadow-sm bg-white/50 backdrop-blur-sm p-4 rounded-xl">
-=======
-                <h3 className="text-2xl md:text-4xl font-kalam font-bold text-[#e60000] leading-snug drop-shadow-sm bg-white/50 backdrop-blur-sm p-4 rounded-xl">
->>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                     "नगररचना आणि विकासाचा <br /> भक्कम पाया"
                 </h3>
                 <div className="h-1 w-24 bg-black ml-auto mt-2 rounded-full opacity-20" />
@@ -95,11 +91,7 @@ export default function HeroSlider() {
                         >
                             <motion.div variants={letterContainer} className="overflow-hidden">
                                 <h2 className="text-sm font-bold tracking-widest text-[var(--color-brand-red)] uppercase flex items-center gap-2 bg-white/60 w-fit px-2 py-1 rounded">
-<<<<<<< HEAD
                                     <span className="w-8 h-[2px] bg-red-500 inline-block" />
-=======
-                                    <span className="w-8 h-[2px] bg-amber-500 inline-block" />
->>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                                     {slides[current].subtitle}
                                 </h2>
                             </motion.div>

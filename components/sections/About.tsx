@@ -57,11 +57,7 @@ export default function About() {
             <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
                 {/* Left: Heading & Intro */}
                 <div ref={textRef} className="space-y-6 group">
-<<<<<<< HEAD
                     <h2 className="text-sm font-bold tracking-widest text-[var(--color-brand-red)] uppercase">
-=======
-                    <h2 className="text-sm font-bold tracking-widest text-black uppercase">
->>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                         Who We Are
                     </h2>
 
