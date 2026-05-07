@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: initial !important;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -38,6 +43,24 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+/* Lenis optimization */
+.lenis.lenis-smooth {
+  height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
 
 @keyframes shine {
   to {
