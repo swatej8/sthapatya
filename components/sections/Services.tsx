@@ -23,7 +23,11 @@ const services = [
         icon: Building2,
         title: "Municipal Property Tax Management",
         description: "Transforming property data into municipal revenue.",
+<<<<<<< HEAD
         image: "https://placehold.co/800x450/e60000/fff?text=Property+Tax+Management",
+=======
+        image: "https://placehold.co/800x450/ffbb47/fff?text=Property+Tax+Management",
+>>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
         features: [
             "GIS-based door-to-door property surveys for accurate assessment",
             "Drone mapping for high-precision property visualization",
@@ -155,7 +159,11 @@ export default function Services() {
                                 key={index}
                                 onClick={() => setActiveIndex(index)}
                                 className={`group flex items-center gap-4 p-4 rounded-xl text-left transition-all duration-300 border ${activeIndex === index
+<<<<<<< HEAD
                                         ? "bg-red-50 border-[var(--color-brand-red)] shadow-sm"
+=======
+                                        ? "bg-amber-50 border-[var(--color-brand-red)] shadow-sm"
+>>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                                         : "bg-white border-transparent hover:bg-gray-50 hover:border-gray-100"
                                     }`}
                             >

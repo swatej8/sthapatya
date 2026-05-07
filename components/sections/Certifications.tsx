@@ -17,7 +17,11 @@ const certs = [
 export default function Certifications() {
     return (
         <section className="py-16 bg-white border-t border-gray-100">
+<<<<<<< HEAD
             <div className="max-w-7xl mx-auto px-6 text-center">
+=======
+            <div className="w-full px-6 md:px-12 text-center">
+>>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                 <h3 className="text-xl font-bold font-[family-name:var(--font-lexend)] text-gray-400 mb-10 uppercase tracking-widest">
                     Recognitions, Certifications & Partners
                 </h3>

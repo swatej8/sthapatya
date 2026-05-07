@@ -32,7 +32,11 @@ export default function Header() {
                         priority
                     />
                 </div>
+<<<<<<< HEAD
                 <span className="text-2xl md:text-3xl font-bold tracking-wide text-black font-[family-name:var(--font-rozha)] drop-shadow-sm">
+=======
+                <span className="text-2xl md:text-3xl font-bold tracking-wide text-black font-kalam drop-shadow-sm">
+>>>>>>> e949a61892f3bdcc016ef6709176e7dde5c7bbd1
                     स्थापत्य
                 </span>
             </Link>
